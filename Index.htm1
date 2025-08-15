@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquaforce Malta - Cleaning Services</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #00aaff; color: white; padding: 20px; text-align: center; }
+        nav { background: #0077aa; padding: 10px; text-align: center; }
+        nav a { color: white; text-decoration: none; padding: 10px; }
+        nav a:hover { background: #005577; }
+        section { padding: 20px; }
+        .gallery img { width: 300px; margin: 10px; border-radius: 10px; }
+        footer { background: #222; color: white; text-align: center; padding: 10px; }
+        .whatsapp-btn {
+            background: #25d366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Aquaforce Malta</h1>
+    <p>21st Century Window Cleaning Services</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Professional Window Cleaning</li>
+        <li>Residential & Commercial Cleaning</li>
+        <li>Pressure Washing</li>
+        <li>Glass & Facade Maintenance</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="work1.jpg" alt="Work Example 1">
+        <img src="work2.jpg" alt="Work Example 2">
+        <img src="work3.jpg" alt="Work Example 3">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: +356 1234 5678</p>
+    <p>Email: info@aquaforcemalta.com</p>
+    <a class="whatsapp-btn" href="https://wa.me/35612345678" target="_blank">Chat on WhatsApp</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Aquaforce Malta. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
